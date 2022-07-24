@@ -1,0 +1,156 @@
+body {
+    font-family: "Montserrat";
+}
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.container-fluid {
+    padding: 2% 7% 5%;
+}
+
+
+/* Navigation Bar  */
+
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+}
+
+/* Download Button  */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title image  */
+.title-image {
+    width: 23%;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 60%;
+}
+ /* Features */
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1; 
+}
+.features-box {
+    text-align: center;
+    padding: 5%;
+}
+.features-h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.features-p {
+    color: #8f8f8f;
+ }
+
+.icon {
+    color: #ef8172;
+    margin: 0 0 1rem 0;
+}
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* testimonials section  */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-image {
+    width: 30%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* press  */
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding: 0 0 3% 0;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section  */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+/* Call to action */
+#cta {
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+#cta > h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+/* Footer  */
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+.footer-a {
+    margin: 0px 10px ;
+    color: #000;
+}
+.footer-p {
+    margin-top: 20px;
+}
+
+/* Smaller Screen  */
+
+@media (max-width: 1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+        width: 60%;
+    }
+    #title {
+        text-align: center;
+    }
+}
