@@ -33,6 +33,7 @@ h2{
     font-weight: bold;
 }
 .nav-item {
+    text-align: Left;
     padding: 0 18px;
 }
 .nav-link {
